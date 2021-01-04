@@ -146,6 +146,13 @@ h1{
     h1{
         font-size: 300%;
     }
+    
+    .icon{
+        max-width: 25%;  /* this is really useful */
+        height: auto;    /* this method scales image with window */
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .icons{
