@@ -44,7 +44,7 @@ p{
 .title{
     text-shadow: 2px 2px white;
     background-color: transparent;
-    justify-content: center;
+    justify-content: space-around;
     text-align: center;
     font-size: 200%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
