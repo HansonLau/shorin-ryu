@@ -145,7 +145,7 @@ h1{
     transition-duration: .5s;
 }
 
-@media only screen and (max-width: 1113px) {  /*For mobile*/
+@media only screen and (max-width: 1113px) {  /*For smaller screen*/
 
     .kata-links a{
         font-size: 80%;
@@ -168,7 +168,60 @@ h1{
         margin: 0;
         padding: 0;
     }
+    
+    
 
+}
+
+@media only screen and (max-width: 900px) {
+    .f{
+    margin: .5%;
+    max-width: 12%;  
+    max-height: 10%; 
+    }
+
+    .rf{
+        margin: .5%;
+        max-width: 12%;  
+        max-height: 10%; 
+    }
+
+     .r{
+        margin: .05%;
+        max-width: 6%;  
+        max-height: 4%; 
+    }
+
+    .rb{
+        margin: .05%;
+        max-width: 6%;  
+        max-height: 4%; 
+    }
+
+    .b{
+        margin: .05%;
+        max-width: 6%;  
+        max-height: 4%; 
+    }
+
+    .lb{
+        margin: .05%;
+        max-width: 6%;  
+        max-height: 4%;  
+    }
+
+    .l{
+        margin: .05%;
+        max-width: 6%;  
+        max-height: 4%;  
+    }
+
+    .lf{
+        margin: .05%;
+        max-width: 6%;  
+        max-height: 4%; 
+    } 
+    
 }
 
 .icon{
