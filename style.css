@@ -170,18 +170,17 @@ h1{
 }
 
 .func{
-    visibility: hidden;
+    opacity: 0;
 }
 
 
 @media only screen and (max-width: 900px) {
     .func{
-        visibility: visible;
+        opacity: 1;
     }
     .moves, .instruc{
         display: none;
     }
-    
 }
 
 .icon{
