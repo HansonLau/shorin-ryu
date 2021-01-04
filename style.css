@@ -175,51 +175,51 @@ h1{
 
 @media only screen and (max-width: 900px) {
     .f{
-    margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+        margin: .05%;
+        max-width: 20px;  
+        max-height: 30px; 
     }
 
     .rf{
-        margin: .5%;
-        max-width: 12%;  
-        max-height: 10%; 
+        margin: .05%;
+        max-width: 20px;  
+        max-height: 30px; 
     }
 
      .r{
         margin: .05%;
-        max-width: 6%;  
-        max-height: 4%; 
+        max-width: 20px;  
+        max-height: 30px;  
     }
 
     .rb{
         margin: .05%;
-        max-width: 6%;  
-        max-height: 4%; 
+        max-width: 20px;  
+        max-height: 30px;   
     }
 
     .b{
         margin: .05%;
-        max-width: 6%;  
-        max-height: 4%; 
+        max-width: 20px;  
+        max-height: 30px;   
     }
 
     .lb{
         margin: .05%;
-        max-width: 6%;  
-        max-height: 4%;  
+        max-width: 20px;  
+        max-height: 30px;    
     }
 
     .l{
         margin: .05%;
-        max-width: 6%;  
-        max-height: 4%;  
+        max-width: 20px;  
+        max-height: 30px;    
     }
 
     .lf{
         margin: .05%;
-        max-width: 6%;  
-        max-height: 4%; 
+        max-width: 20px;  
+        max-height: 30px;   
     } 
     
 }
