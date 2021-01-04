@@ -42,6 +42,7 @@ p{
 }
 
 .title{
+    color: blue;
     text-shadow: 2px 2px white;
     background-color: transparent;
     justify-content: space-around;
