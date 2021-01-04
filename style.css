@@ -153,6 +153,14 @@ h1{
         margin: 0;
         padding: 0;
     }
+    
+    .v{
+        max-width: 25%;  
+        height: auto;    
+        margin: 0;
+        padding: 0;
+    }
+    
 }
 
 .icons{
