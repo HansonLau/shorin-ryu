@@ -424,7 +424,12 @@ h1{
     text-decoration: none;
 }
 
+.switch-special{
+    padding: 0;
+}
+
 .switch{
+    padding: auto 0; 
     margin-right: 10%;
     margin-left: 10%;
     display: flex;
