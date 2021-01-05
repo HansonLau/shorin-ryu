@@ -146,7 +146,7 @@ h1{
     opacity: 0;
 }
 
-@media only screen and (max-width: 1111px) {  /*ipads or tablets*/
+@media only screen and (max-width: 1155px) {  /*ipads or tablets*/
 
     .kata-links a{
         font-size: 80%;
@@ -183,7 +183,7 @@ h1{
     }
     
     .kata-links > a{
-        font-size: 150%;
+        font-size: 148%;
     }
 
 }
