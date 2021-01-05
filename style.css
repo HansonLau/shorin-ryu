@@ -129,7 +129,6 @@ h1{
     text-decoration: none;
     border-radius: 2%;
     box-shadow:  rgba(243, 243, 243, 0.863) 3px 3px 0px;
-
 }
 
 .kata-links :hover{
@@ -175,9 +174,19 @@ h1{
 
 
 @media only screen and (max-width: 900px) {
+
+    .kata-links{
+        padding: 2.5% 0% 12% 4.5%;
+    }
+    
+    .kata-links > a{
+        font-size: 150%;
+    }
+
     .func{
         opacity: 1;
     }
+    
     .moves, .instruc{
         display: none;
     }
