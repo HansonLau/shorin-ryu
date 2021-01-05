@@ -142,7 +142,7 @@ h1{
     transition-duration: .5s;
 }
 
-@media only screen and (max-width: 1113px) {  /*For mobile*/
+@media only screen and (max-width: 1111px) {  /*ipads or tablets*/
 
     .kata-links a{
         font-size: 80%;
@@ -166,15 +166,14 @@ h1{
         padding: 0;
     }
 
-}
-
-.func{
-    opacity: 0;
-}
-
-
-@media only screen and (max-width: 900px) {
-
+    .func{
+        opacity: 1;
+    }
+    
+    .moves, .instruc{
+        display: none;
+    }
+    
     .kata-links{
         padding: 2.5% 0% 12% 4.5%;
     }
@@ -183,13 +182,19 @@ h1{
         font-size: 150%;
     }
 
-    .func{
-        opacity: 1;
-    }
+}
+
+.func{
+    opacity: 0;
+}
+
+
+@media only screen and (max-width: 900px) { /* phone */
     
-    .moves, .instruc{
-        display: none;
+    .kata-links > a{
+        font-size: 85%;
     }
+
 }
 
 .icon{
