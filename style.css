@@ -263,16 +263,53 @@ h1{
 }
 
 .moves{
-    margin: 1%;
-    align-items: center;
+    /* margin: 1%;
+    align-items: center; */
+    margin: 0;
+    padding: 0;
 } 
 
-.row1{
-    justify-content: center;
-    display: flex;
+.instruc{
+    margin-bottom: 5%;
 }
 
-.row2{
+.words{
+    font-size: 300%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.purpose{
+    justify-content: space-between;
+    display: flex;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.row{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    margin-left: 10%;
+  
+}
+
+.big-space{
+    height: 700px;
+}
+
+/* .row1{
+    margin: .5%;
+    max-width: 72%;  
+    max-height: 70%; 
+    justify-content: left;
+    display: flex;
+} */
+
+/* .row2{
     justify-content: center;
     display: flex;
 }
@@ -296,58 +333,64 @@ h1{
     justify-content: center;
     padding: 1%;
     display: flex;
+} */
+
+.smaller-pic{
+    max-width: 42%;  
+    max-height: 30%;
 }
 
 .f{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+    max-width: 72%;  
+    max-height: 70%; 
 }
 
 .rf{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+    max-width: 72%;  
+    max-height: 70%;
 }
  
  .r{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+    max-width: 72%;  
+    max-height: 70%; 
 }
  
 .rb{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+    max-width: 72%;  
+    max-height: 70%;
 }
  
 .b{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+    max-width: 72%;  
+    max-height: 70%;
 }
  
 .lb{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%;  
+    max-width: 72%;  
+    max-height: 70%;  
 }
  
 .l{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%;  
+    max-width: 72%;  
+    max-height: 70%;  
 }
  
 .lf{
     margin: .5%;
-    max-width: 12%;  
-    max-height: 10%; 
+    max-width: 72%;  
+    max-height: 70%;
 } 
  
-/* change move class to f rf r rb b lb l lf */
-.rf:hover + .arrow {  /* this is huge and very big brain, it rotates image B when image A is being hovered over */
+/* change move class to f rf r rb b lb l lf 
+  this is huge and very big brain, it rotates image B when image A is being hovered over */
+/* .rf:hover + .arrow {
     transition: 1s;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
@@ -401,10 +444,10 @@ h1{
     -webkit-transform: rotate(315deg);
     -moz-transform: rotate(315deg);
     -o-transform: rotate (315deg);
-} 
+}  */
 
 .video{
-    margin-top: 2%;
+    margin-top: 0%;
     padding-bottom: 5%;
 }
 
@@ -449,7 +492,6 @@ h1{
     display: flex;
     justify-content: space-between;
 }
-
 
 .next{
     text-align: center;
