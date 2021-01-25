@@ -265,6 +265,7 @@ h1{
 .moves{
     /* margin: 1%;
     align-items: center; */
+    display: inline;
     margin: 0;
     padding: 0;
 } 
@@ -279,8 +280,27 @@ h1{
     margin-bottom: 5%;
 }
 
-.purpose{
-    justify-content: space-between;
+.purpose1{
+    /* justify-content: space-between; */
+    margin-top: 5%;
+    display: flex;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.purpose2{
+    /* justify-content: space-between; */
+    display: flex;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.purpose3{
+    /* justify-content:space-evenly; */
     display: flex;
     text-align: left;
     margin-bottom: 0;
@@ -297,8 +317,13 @@ h1{
   
 }
 
+.multi{
+    flex-direction: column;
+}
+
 .big-space{
-    height: 700px;
+    padding: 0;
+    height: 500px;
 }
 
 /* .row1{
@@ -336,8 +361,8 @@ h1{
 } */
 
 .smaller-pic{
-    max-width: 42%;  
-    max-height: 30%;
+    max-width: 82%;  
+    max-height: 80%;
 }
 
 .f{
