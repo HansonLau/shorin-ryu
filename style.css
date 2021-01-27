@@ -163,6 +163,10 @@ h1{
         padding: 0;
     }
 
+    .d{
+        font-size: 150%;
+    }
+
     .v{
         max-width: 25%;  
         height: auto;    
@@ -190,6 +194,9 @@ h1{
 
 @media only screen and (max-width: 900px) { /* phone */
     
+    .d{
+        font-size: 100%;
+    }
     .func{
         opacity: 1;
     }
@@ -241,16 +248,17 @@ h1{
     padding-top: 7%;
 }
 
-.arrow{
-    max-width: 25%;  /* this is really useful */
-    height: auto;    /* this method scales image with window */
+
+/*.arrow{
+    max-width: 25%;   this is really useful 
+    height: auto;     this method scales image with window 
     margin: 0;
     padding: 0;
 }
 
 .up{
-    max-width: 12%;  /* this is really useful */
-    height: auto;    /* this method scales image with window */
+    max-width: 12%;  this is really useful 
+    height: auto;    this method scales image with window 
     top: 70em;
     left: 11.6em;
     position: absolute;
@@ -260,7 +268,7 @@ h1{
 .up:hover{
     opacity: 1;
 
-}
+} */
 
 .moves{
     /* margin: 1%;
@@ -324,6 +332,11 @@ h1{
 .big-space{
     padding: 0;
     height: 500px;
+}
+
+.med-space{
+    padding: 0;
+    height: 300px;
 }
 
 /* .row1{
