@@ -146,6 +146,10 @@ h1{
     opacity: 0;
 }
 
+.d{
+    margin-bottom: 2%;
+}
+
 @media only screen and (max-width: 1155px) {  /*ipads or tablets*/
 
     .kata-links a{
@@ -245,7 +249,7 @@ h1{
 }
 
 .step{
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
 
