@@ -68,6 +68,10 @@ p{
     top: 0;
   }
 
+.correction{
+    margin-top: 2.56%;
+}
+
 .item a{
     box-sizing: border-box;
     padding: 10%;
@@ -151,6 +155,9 @@ h1{
 }
 
 @media only screen and (max-width: 1155px) {  /*ipads or tablets*/
+    .item a{
+        font-size: 100%;
+    }
 
     .kata-links a{
         font-size: 80%;
@@ -198,6 +205,9 @@ h1{
 
 @media only screen and (max-width: 900px) { /* phone */
     
+    .title{
+        font-size: 100%;
+    }
     .d{
         font-size: 100%;
     }
@@ -206,7 +216,7 @@ h1{
     }
     
     .kata-links > a{
-        font-size: 75%;
+        font-size: 55%;
     }
 
 }
@@ -489,7 +499,7 @@ h1{
 }  */
 
 .video{
-    margin-top: 0%;
+    margin-top: 5%;
     padding-bottom: 5%;
 }
 
@@ -524,10 +534,14 @@ h1{
 }
 
 .switch-special{
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 0;
 }
 
 .switch{
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: auto 0; 
     margin-right: 10%;
     margin-left: 10%;
