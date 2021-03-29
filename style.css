@@ -189,7 +189,11 @@ h1{
 }
 
 @media only screen and (max-width: 900px) { /* phone */
-    
+
+    .item{
+        padding-top: 1%;
+        font-size: 55%;
+    }
     .func{
         opacity: 1;
     }
