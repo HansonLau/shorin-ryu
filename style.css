@@ -28,7 +28,7 @@ p{
     background-color: rgb(248, 173, 150) ;
     margin-top: 0;
     text-align: center; /*might have to change for the future table of katas*/
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 
 }
 
@@ -67,6 +67,10 @@ p{
     position: fixed;
     top: 0;
   }
+
+.correction{
+    margin-top: 2.56%;
+}
 
 .item a{
     box-sizing: border-box;
@@ -146,7 +150,14 @@ h1{
     opacity: 0;
 }
 
+.d{
+    margin-bottom: 2%;
+}
+
 @media only screen and (max-width: 1155px) {  /*ipads or tablets*/
+    .item a{
+        font-size: 100%;
+    }
 
     .kata-links a{
         font-size: 80%;
@@ -161,6 +172,10 @@ h1{
         height: auto;    
         margin: 0;
         padding: 0;
+    }
+
+    .d{
+        font-size: 150%;
     }
 
     .v{
@@ -199,7 +214,7 @@ h1{
     }
     
     .kata-links > a{
-        font-size: 85%;
+        font-size: 55%;
     }
 
 }
@@ -242,19 +257,20 @@ h1{
 }
 
 .step{
-    padding-top: 7%;
+    padding-top: 4%;
 }
 
-.arrow{
-    max-width: 25%;  /* this is really useful */
-    height: auto;    /* this method scales image with window */
+
+/*.arrow{
+    max-width: 25%;   this is really useful 
+    height: auto;     this method scales image with window 
     margin: 0;
     padding: 0;
 }
 
 .up{
-    max-width: 12%;  /* this is really useful */
-    height: auto;    /* this method scales image with window */
+    max-width: 12%;  this is really useful 
+    height: auto;    this method scales image with window 
     top: 70em;
     left: 11.6em;
     position: absolute;
@@ -264,11 +280,12 @@ h1{
 .up:hover{
     opacity: 1;
 
-}
+} */
 
 .moves{
     /* margin: 1%;
     align-items: center; */
+    display: inline;
     margin: 0;
     padding: 0;
 } 
@@ -283,8 +300,27 @@ h1{
     margin-bottom: 5%;
 }
 
-.purpose{
-    justify-content: space-between;
+.purpose1{
+    /* justify-content: space-between; */
+    margin-top: 5%;
+    display: flex;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.purpose2{
+    /* justify-content: space-between; */
+    display: flex;
+    text-align: left;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+}
+
+.purpose3{
+    /* justify-content:space-evenly; */
     display: flex;
     text-align: left;
     margin-bottom: 0;
@@ -301,8 +337,18 @@ h1{
   
 }
 
+.multi{
+    flex-direction: column;
+}
+
 .big-space{
-    height: 700px;
+    padding: 0;
+    height: 500px;
+}
+
+.med-space{
+    padding: 0;
+    height: 300px;
 }
 
 /* .row1{
@@ -340,8 +386,8 @@ h1{
 } */
 
 .smaller-pic{
-    max-width: 42%;  
-    max-height: 30%;
+    max-width: 82%;  
+    max-height: 80%;
 }
 
 .f{
@@ -451,7 +497,7 @@ h1{
 }  */
 
 .video{
-    margin-top: 0%;
+    margin-top: 7%;
     padding-bottom: 5%;
 }
 
@@ -486,10 +532,14 @@ h1{
 }
 
 .switch-special{
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 0;
 }
 
 .switch{
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: auto 0; 
     margin-right: 10%;
     margin-left: 10%;
