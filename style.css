@@ -208,7 +208,7 @@ h1{
 
 }
 
-@media only screen and (max-width: 900px) { /* phone */
+@media screen and (max-width: 900px) { /* phone */
     
     .title{
         font-size: 100%;
