@@ -203,6 +203,10 @@ h1{
 
 }
 
+.website2{
+    display: none;
+}
+
 @media only screen and (max-width: 900px) { /* phone */
     
     .title{
@@ -222,6 +226,14 @@ h1{
     
     .kata-links > a{
         font-size: 55%;
+    }
+
+    .website{
+        display: none;
+    }
+
+    .website2{
+        display: unset;
     }
 
 }
