@@ -155,6 +155,10 @@ h1{
     margin-bottom: 2%;
 }
 
+.website2{
+    display: none;
+}
+
 @media only screen and (max-width: 1155px) {  /*ipads or tablets*/
     .item a{
         font-size: 100%;
@@ -202,10 +206,6 @@ h1{
         font-size: 148%;
     }
 
-}
-
-.website2{
-    display: none;
 }
 
 @media only screen and (max-width: 900px) { /* phone */
